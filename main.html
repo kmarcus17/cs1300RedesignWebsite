@@ -1,0 +1,165 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Redesign</title>
+    <link rel="stylesheet" href="styling.css">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap" rel="stylesheet">
+    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+
+  <body>
+    <div class="box">
+
+    <div class ="headings">
+    <h1> Responsive Redesign</h1>
+    <h6></h6>
+    </div>
+
+    <div class = "content">
+      <h2> <mark>Context:</mark>
+      </h2>
+      <p>
+        For my UI/UX class, we were tasked with practicing the workflow of redesigning a simple website.
+      </p>
+       <p>
+        I chose a restaurant in my hometown because I always thought its website was difficult to use and hard on the eyes.
+      </p>
+      <p>
+        I picked the home page of their <a href="https://cherrysteast.com" style = "color: #f7746a">website</a> and analyzed it based on usability and accessibility standards. I then redesigned and built a new version of this webpage.
+      </p>
+
+      <div class = "website-pic">
+        <img id = website src="cherryStreet.png" alt="picture of Cherry Street East Website">
+      </div>
+
+      <h2><mark> Evaluation:</mark>
+      </h2>
+      <p>
+        I analyzed the usability of the website using criteria we learned about in class: usability, learnability, and memorability. Additionaly, I analyzed the accesibility of the website, using  WebAIM WAVE and a screen reader. The results of this evaluation are shown below:
+      </p>
+      <div class = "eval">
+        <div class = "usab">
+      <h3>
+        <mark2>Usability:</mark2>
+      </h3>
+
+      <ul>
+        <li>Cluttered Information</li>
+        <li>Small Text Size and narrow letter spacing making it hard to read</li>
+        <li>Low Quality Photos</li>
+        <li>Poor Color Choices (color contrast, analogous colors)</li>
+        <li>Lack of Visual Style</li>
+        <li>Inconsistent Layout</li>
+        <li>Excessive Tabs</li>
+      </ul>
+    </div>
+      <div class = "usab">
+      <h3>
+        <mark2>Accesibility:</mark2>
+      </h3>
+
+      <ul>
+        <li>11 Errors from WebAIM Wave</li>
+        <li>Missing alt text for images</li>
+        <li>Low Contrast</li>
+        <li>Empty Links</li>
+        <li>Voiceover unable to read because of empty headers</li>
+        <li>Redundant Title Text</li>
+        <li>Redundant Links</li>
+      </ul>
+    </div>
+      </div>
+    </div>
+
+    <h2> <mark>Redesign:</mark>
+      </h2>
+      <p>
+        I created low-fidelity wireframes, high-fidelity prototypes, and a visual design style guide before redesigning the website. I used Balsamiq to create a total of 3 wireframes of my screen, one for each of the screen sizes and used Figma to create 3 high-fidelity prototypes of my screen. I then annotated the lofi and hifi prototypes with more detail for creating the actual website.
+      </p>
+    <h3>
+        <mark2>Low-fi:</mark2>
+      </h3>
+      <div class = "lofi">
+        <img id = wireframe src="phone.png" alt="lowfi wireframe of cell phone">
+        <img id = wireframe src="tablet.png" alt="lowfi wireframe of tablet">
+        <img id = wireframe src="computer.png" alt="lowfi wireframe of computer">
+      </div>
+
+      <h3>
+        <mark2>Hi-fi:</mark2>
+      </h3>
+      <div class = "hifiNone">
+        <img id = prototype src="phoneHiFi.png" alt="hifi prototype of cell phone">
+        <img id = prototype src="phoneHiFi2.png" alt="hifi prototype of cell phone">
+        <img id = prototype src="tabletHiFi.png" alt="hifi prototype of tablet">
+        <img id = prototype src="tabletHiFi2.png" alt="hifi prototype of tablet">
+        <img id = prototype src="computerHiFi.png" alt="hifi prototype of computer">
+        <img id = prototype src="computerHiFi2.png" alt="hifi prototype of computer">
+      </div>
+      <h3>
+        <mark2>Lo-fi and Hi-fi with annotations:</mark2>
+      </h3>
+      <div class = "hifi">
+      <div class = "lofi">
+        <img id = annotations src="phoneAnLo.png" alt="lofi prototype of cell phone with annotations">
+       <img id = annotations src="phoneAn.png" alt="hifi prototype of cell phone with annotations">
+      </div>
+      <div class = "lofi">
+         <img id = annotations src="tabletAnLo.png" alt="lofi prototype of tablet with annotations">
+        <img id = annotations src="tabletAn.png" alt="hifi prototype of tablet with annotations">
+      </div>
+      <div class = "lofi">
+        <img id = annotations src="computerAnLo.png" alt="lofi prototype of computer with annotations">
+        <img id = annotations src="computerAn.png" alt="hifi prototype of computer with annotations">
+      </div>
+      </div>
+      <p>
+        The main differences in the prototypes are: more contrast, text hierarchy, greater text size to help with readability, alt descriptions and no "empty" headers or links for screen readers, better organization, and a preview of the lunch and dinner menu with a link to the pdf for full menu so that readers are able to quickly gauge if they want to eat at the restaurant (instead of having to open the pdf to see the disorganized menu). Overall, the prototypes also are more visually appealing due to simpler color schemes and better typeface.
+      </p>
+      <h3>
+        <mark2>StyleGuide:</mark2>
+      </h3>
+    <p>
+      I also created a visual design style guide that displays the main colors, typography, and reusable components’ different states:
+    </p>
+    <div class = "website-pic">
+      <img id = styleguide src="styleguide.png" alt="style guide of redesigned website">
+    </div>
+    
+    <h2> <mark>Responsive Redesign:</mark>
+      </h2>
+
+      <p> 
+        Finally, I used the final high-fidelity prototypes to create the page using HTML and CSS.
+      </p>
+
+      <p>
+        Press image to see final website.
+      </p>
+      <div class = "imgBox">
+        <a href="https://afternoon-caverns-49297.herokuapp.com/" style = "text-decoration: none" ><img alt="image of final website" src="finalWebsite.png"
+         width=900" height="600"></a>
+      </div>
+      <h3>
+        <mark2>Observations:</mark2>
+      </h3>
+    <ul>
+        <li>The site looks best on computers, but responds well to tablets and phones.</li>
+        <li>The text is much more readable</li>
+        <li>The screen reader works more effectively, especially with the alt text</li>
+        <li>The WebAim Wave reader got a much better score: 1 error</li>
+        <li>A user can make a quicker decision by glancing at the highlighted menu options instead of having to download the pdf</li>
+        <li>The text becomes larger and easier to read for tablets and phones, but the images need additional scaling.</li>
+      </ul>
+
+    <h2>
+        <mark>Conclusion:</mark>
+      </h2>
+    <p>
+      There is still much to be improved for this site, like better responsiveness and redesigning the entire website instead of just a snippet (although I did make quick changes to the about us and visit pages (click to view). Still, I think that these minor changes are big improvements and create a much more professional tone for the restaurant. More importantly, the website is much more accesible and usable.
+    </p>
+  </body>
+</html>

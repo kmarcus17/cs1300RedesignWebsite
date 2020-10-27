@@ -1,0 +1,165 @@
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Bitter', serif;
+  font-size: 4vw;
+}
+
+h2{
+  
+  padding: 20px;
+  padding-left: 50px;
+  display: flex;
+  font-family: 'Bitter', serif;
+  font-size: 2vw;
+}
+
+h3{
+  
+  padding: 20px;
+  padding-left: 50px;
+  display: flex;
+  font-family: 'Bitter', serif;
+  font-size: 1.5vw;
+}
+
+p{
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.6;
+  font-family: 'Bitter', serif;
+  font-size: 1vw;
+}
+
+h4{
+ padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.6;
+  font-family: 'Bitter', serif;
+  font-size: 1vw;
+}
+
+h4:hover{
+  text-decoration: underline;
+}
+
+ul{
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  list-style-type:square;
+}
+
+li{
+  font-family: 'Bitter', serif;
+  font-size: 1vw;
+}
+
+mark {
+  background-color: #f7746a;
+}
+
+mark2{
+  background-color: #ffea8c;
+}
+
+#website{
+  padding: 40px;
+  max-width: 60%;
+  height: auto;
+}
+
+#finalWebsite{
+  padding: 40px;
+  max-width: 70%;
+  height: auto;
+}
+
+#finalWebsite:hover{
+  
+}
+
+
+#wireframe{
+  padding: 40px;
+  max-width: 25%;
+  height: auto;
+}
+
+#annotations{
+  padding: 30px;
+  max-width: 40%;
+  height: auto;
+}
+
+#prototype{
+  padding: 20px;
+  max-width: 13%;
+  height: auto;
+    
+}
+
+#styleguide{
+  padding: 40px;
+  max-width: 40%;
+  height: auto;
+}
+
+.website-pic{
+  display: flex;
+  justify-content: center;
+}
+.imgBox{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+ 
+}
+.imgBox:hover{
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+.lofi{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.hifi{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.hifiNone{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.eval{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
